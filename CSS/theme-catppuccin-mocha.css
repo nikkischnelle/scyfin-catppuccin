@@ -18,6 +18,10 @@
     background: var(--ctp-mocha-surface0);
 }
 
+.raised:focus {
+    background: var(--ctp-mocha-surface1);
+}
+
 .emby-select {
     background: var(--ctp-mocha-surface0) !important;
 }
