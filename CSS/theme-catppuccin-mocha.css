@@ -1,0 +1,31 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
+:root {
+    /* Accent Color: Peach */
+    --primary-r: 250;
+    --primary-g: 179;
+    --primary-b: 135;
+    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+    --secondary-accent-color: var(--ctp-mocha-peach)20;
+    --primary-background-color: var(--ctp-mocha-crust);
+    --secondary-background-color: var(--ctp-mocha-mantle);
+
+    --primary-background-transparent: rgba(24, 24, 37, 0.5);
+    --secondary-background-transparent: rgba(17, 17, 27, 0.6);
+}
+
+.emby-input, .emby-textarea, .raised {
+    background: var(--ctp-mocha-surface0);
+}
+
+.emby-select {
+    background: var(--ctp-mocha-surface0) !important;
+}
+
+.collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
+    background: var(--ctp-mocha-crust);
+}
+
+.button-submit, .checkboxIcon {
+    color: var(--ctp-mocha-mantle);
+}
