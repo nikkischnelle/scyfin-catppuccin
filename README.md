@@ -72,6 +72,11 @@ Changes the search results in the "Identify" menu from a grid to a list. Useful 
 <img src="./images/homepage-oled.png" alt="homepage-oled" width="90%"/>
 <img src="./images/details-oled.png" alt="details-oled" width="90%"/>
 
+### Catppuccin Mocha
+```
+@import url('https://cdn.jsdelivr.net/gh/nikkischnelle/scyfin-catppuccin@main/CSS/theme-catppuccin-mocha.css');
+```
+
 ---
 
 ### **Installation:**
